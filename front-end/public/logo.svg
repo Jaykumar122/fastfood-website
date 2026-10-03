@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <defs>
+    <linearGradient id="logo-wordmark-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b42" />
+      <stop offset="100%" stop-color="#ea4c16" />
+    </linearGradient>
+  </defs>
+  <!-- Icon Badge -->
+  <g transform="translate(4, 4)">
+    <rect width="40" height="40" rx="12" fill="url(#logo-wordmark-grad)" />
+    <rect x="0.5" y="0.5" width="39" height="39" rx="11.5" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25" />
+    <polygon
+      points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+      fill="#b9340e"
+      opacity="0.35"
+      transform="translate(8, 9) scale(1)"
+    />
+    <polygon
+      points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+      fill="#ffffff"
+      stroke="#ffffff"
+      stroke-width="0.6"
+      stroke-linejoin="round"
+      transform="translate(8, 8) scale(1)"
+    />
+  </g>
+  <!-- Wordmark -->
+  <text x="54" y="32" font-family="'Bricolage Grotesque', sans-serif" font-size="26" font-weight="800" fill="#17231d" letter-spacing="-0.03em">fast<tspan fill="#ff6b35">food</tspan></text>
+</svg>

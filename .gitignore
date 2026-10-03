@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+front-end/node_modules/
+.pnp
+.pnp.js
+
+# Production Builds
+dist/
+front-end/dist/
+dist-ssr/
+*.local
+
+# Java / Maven build output
+target/
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+
+# Environment Variables & Local Secrets
+.env.local
+.env.*.local
+*.env.bak
+backend/.env
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-local.properties
+*.local.yml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & OS & Agent files
+AGENTS.md
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Temporary & test scripts
+tmp/
+temp/
+*.tmp
+e2e_verify.ps1
+test_admin.ps1
